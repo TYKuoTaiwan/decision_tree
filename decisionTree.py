@@ -379,6 +379,7 @@ print ("Number of training instances = ",numTrain)
 print ("Number of training attributes=", numAttr)
 print ("Total number of nodes in the tree =", nodeNumR)
 print ("Number of leaf nodes in the tree =",leaveNumR)
+print ("Average depth of the tree =",rootR.avgDepth())
 print ("Accuracy of the model on the training dataset = ", acTrainPreR)
 print ();
 
@@ -408,6 +409,7 @@ if len(sys.argv) == 4:
 	print ("Number of training attributes=", numAttr)
 	print ("Total number of nodes in the tree =", nodeNum)
 	print ("Number of leaf nodes in the tree =",leaveNum)
+	print ("Average depth of the tree =",root.avgDepth())
 	print ("Accuracy of the model on the training dataset = ", acTrainPre)
 
 	print ();
