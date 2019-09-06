@@ -6,7 +6,7 @@ The ID3 decision tree learning algorithm is implemented to build a binary decisi
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-###Data Format
+### Data Format
 
 *The program read four arguments from the command line – complete path of the training dataset, complete path of the validation dataset, complete path of the test dataset, and the pruning factor.
 
